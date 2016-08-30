@@ -1,0 +1,67 @@
+
+.heart {
+    margin-left: 5px;
+}
+
+.footer {
+    font-size: 10px;
+}
+
+.bluebox {
+    color: white;
+    background-color: rgb(47, 127, 172);
+    padding: 15px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.vitaItem {
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    float: left;
+}
+
+:global(body, h1, h2, h3, h4, h5, li, li a) {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:global(ul) {
+    list-style: none;
+    float: right;
+    li {
+        float: left;
+        margin-right: 15px;
+        padding: 15px;
+    }
+}
+
+:global(.spacetop) {
+    padding-top: 30px;
+}
+
+:global(.spacebottom) {
+    padding-bottom: 30px;
+}
+
+:global(.paddingleft) {
+    padding-left: 15px;
+}
+
+:global(.paddingright) {
+    padding-right: 15px;
+}
+
+:global(a) {
+    text-decoration: none !important;
+    color: rgb(47, 127, 172);
+}
+
+:global(.tiny) {
+    text-transform: uppercase;
+    font-size: 16px;
+}
