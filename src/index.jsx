@@ -9,6 +9,8 @@ import Vita from './components/vita';
 import Navigation from './components/navigation';
 import References from './components/references';
 import Footer from './components/footer.jsx';
+import Impressum from './components/impressum.jsx';
+
 import styles from './index.scss';
 
 import Locator from './components/references/locator.jsx';
@@ -26,7 +28,7 @@ class App extends React.Component {
 					<Route path="/references/locator" component={Locator}/>
 					<Route path="/references/mysmile" component={MySmile}/>
 					<Route path="/references/donau" component={Donau}/>
-
+					<Route path="/impressum" component={Impressum}/>
 					<Redirect from="/" to="/vita"/>
 				</Router>
 				<Footer />

@@ -11,8 +11,8 @@ export default React.createClass({
 						<ul className={styles.menu} role="nav">
 							<li className="tiny"><Link to="/vita">Vita</Link></li>
 							<li className="tiny"><Link to="/references">Referenzen</Link></li>
-							<li className="tiny"><Link to="/vita">Kontakt</Link></li>
-							<li className="tiny"><Link to="/references">Impressum</Link></li>
+							<li className="tiny"><a href="mailto:info@michaelknoch.de">Kontakt</a></li>
+							<li className="tiny"><Link to="/impressum">Impressum</Link></li>
 						</ul>
 					</div>
 				</div>

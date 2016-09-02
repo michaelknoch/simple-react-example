@@ -42,6 +42,9 @@ export default React.createClass({
 						{referenceList}
 					</ul>
 
+					<div className="uppercase spacetop col-xs-12">
+						<h2 className="tiny"><a target="_blank" href="http://mica-design.de/work">mehr Referenzen</a></h2>
+					</div>
 				</div>
 			</div>
 
