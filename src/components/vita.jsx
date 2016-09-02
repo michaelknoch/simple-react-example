@@ -26,8 +26,8 @@ export default React.createClass({
 							<h2 className="tiny col-xs-12">Erfahrung</h2>
 							<a href="http://mica-design.de" target="_blank" className={styles.vitaItem}>
 								<h4>2012 - heute | Freelancing</h4>
-								<p>Mobile und Web Development nativ und hybrid mit
-									AngularJS, Ionic, Swift und Drupal im Rahmen der mica-design GbR
+								<p>Mobile- und Web Development nativ und hybrid mit
+									AngularJS,<br />Ionic, Swift und Drupal im Rahmen der mica-design GbR
 								</p>
 							</a>
 							<a href="http://tojio.com" target="_blank" className={styles.vitaItem}>

@@ -24,9 +24,11 @@ export default React.createClass({
 
 		var referenceList = references.map((item) => {
 			return (
-				<Link to={item.link} style={item.style} key={item.name} className="col-xs-12 col-sm-4 reference-item">
-					<h2><span className={styles.center}>{item.name}</span></h2>
-				</Link>
+				<div className="col-xs-12 col-sm-4 spacetop">
+					<Link to={item.link} style={item.style} key={item.name} className="reference-item">
+						<h2><span className={styles.center}>{item.name}</span></h2>
+					</Link>
+				</div>
 			);
 		});
 
@@ -34,7 +36,7 @@ export default React.createClass({
 			<div className="container">
 				<div className="row">
 					<Navigation />
-					<div className="col-xs-12 bluebox">
+					<div className="col-xs-12">
 						<h2>References</h2>
 					</div>
 
@@ -43,7 +45,7 @@ export default React.createClass({
 					</ul>
 
 					<div className="uppercase spacetop col-xs-12">
-						<h2 className="tiny"><a target="_blank" href="http://mica-design.de/work">mehr Referenzen</a></h2>
+						<h2 className="tiny"><a target="_blank" href="http://mica-design.de/work">weitere Referenzen</a></h2>
 					</div>
 				</div>
 			</div>
