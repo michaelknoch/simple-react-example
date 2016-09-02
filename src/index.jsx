@@ -11,6 +11,10 @@ import References from './components/references';
 import Footer from './components/footer.jsx';
 import styles from './index.scss';
 
+import Locator from './components/references/locator.jsx';
+import MySmile from './components/references/mysmile.jsx';
+import Donau from './components/references/donau2015.jsx';
+
 class App extends React.Component {
 	render() {
 		return (
@@ -18,6 +22,11 @@ class App extends React.Component {
 				<Router history={hashHistory}>
 					<Route path="/vita" component={Vita}/>
 					<Route path="/references" component={References}/>
+
+					<Route path="/references/locator" component={Locator}/>
+					<Route path="/references/mysmile" component={MySmile}/>
+					<Route path="/references/donau" component={Donau}/>
+
 					<Redirect from="/" to="/vita"/>
 				</Router>
 				<Footer />
