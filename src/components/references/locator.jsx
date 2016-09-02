@@ -38,6 +38,16 @@ export default React.createClass({
 								Nachdem wir zuvor Erfahrungen in der hybriden Entwicklung sammeln konnten, wurde der Technologiestack
 								des Frontends auf Swift und Java für eine native Implementierung der Apps gewechselt.
 								Der Stack des Backends basiert nach wie vor auf Node.js
+
+								<br />
+								<br />
+
+								<a target="_blank" href="http://locator-app.com">locator-app.com</a> <br />
+								<a target="_blank" href="https://itunes.apple.com/de/app/locator-schon-hier/id1089324532?l=de">App
+									Store</a> <br />
+
+								<a target="_blank" href="http://github.com/locator-kn">Github</a>
+
 							</p>
 						</div>
 
