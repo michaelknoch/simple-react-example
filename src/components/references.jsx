@@ -17,16 +17,16 @@ export default React.createClass({
 	render() {
 
 		var references = [
-			{name: "Locator", img: Locator, link: '/references/locator', style: {backgroundImage: 'url(' + Locator + ')'}},
-			{name: "MySmile", img: MySmile, link: '/references/mysmile', style: {backgroundImage: 'url(' + MySmile + ')'}},
-			{name: "Donau2015", img: MySmile, link: '/references/donau', style: {backgroundImage: 'url(' + Donau + ')'}}
+			{key: "Locator", img: Locator, link: '/references/locator', style: {backgroundImage: 'url(' + Locator + ')'}},
+			{key: "MySmile", img: MySmile, link: '/references/mysmile', style: {backgroundImage: 'url(' + MySmile + ')'}},
+			{key: "Donau2015", img: MySmile, link: '/references/donau', style: {backgroundImage: 'url(' + Donau + ')'}}
 		];
 
 		var referenceList = references.map((item) => {
 			return (
-				<div className="col-xs-12 col-sm-4 spacetop">
-					<Link to={item.link} style={item.style} key={item.name} className="reference-item">
-						<h2><span className={styles.center}>{item.name}</span></h2>
+				<div key={item.key} className="col-xs-12 col-sm-4 spacetop">
+					<Link to={item.link} style={item.style} className="reference-item">
+						<h2><span className={styles.center}>{item.key}</span></h2>
 					</Link>
 				</div>
 			);
@@ -37,7 +37,7 @@ export default React.createClass({
 				<div className="row">
 					<Navigation />
 					<div className="col-xs-12">
-						<h2>References</h2>
+						<h2>Referenzen</h2>
 					</div>
 
 					<ul>

@@ -138,3 +138,22 @@
     float: left;
     width: 100%;
 }
+
+.icon {
+    max-width: 35px;
+}
+
+.blacklink {
+    color: black !important;
+}
+
+:global(.icon-wrapper) {
+    margin-top: -10px;
+    a {
+        float: right;
+    }
+}
+
+.underline {
+    border-bottom: 2px solid #2f7fac;
+}
